@@ -61,7 +61,6 @@ Push these changes to the GitHub repository before proceeding.
 ### Log in and create the project
 
 * Log in to your Jenkins server
-
 * Create a new project by selecting `New Item` on the Jenkins homepage
   * Enter the repo name in the field at the top (for example, `container-zabra` or `chart-zabra`)
   * Select Multibranch Pipeline 
@@ -78,11 +77,10 @@ Push these changes to the GitHub repository before proceeding.
   <img src="https://github.com/NancyHarvey/solas/blob/master/docs/images/Jenkins%20Branch%20Sources%20Config.png" width="200" title="Github Logo">
 </p>
 
-* Configure
 Configure Branch Sources as shown below.
 
-Notes
-* Once you input credentials, you may need to go back and actually select it.
+Notes:
+* Once you choose a credential, you may need to go back and select it.
 * Under the GitHub Branch Source, add the additional behaviors "Advanced
 checkout behaviors" and "Advanced clone behaviors," but don't change their
 settings.
