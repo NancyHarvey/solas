@@ -17,7 +17,7 @@ new empty repo under the [`samsung-cnct`](https://github.com/samsung-cnct)
 org using the GitHub GUI, for example https://github.com/samsung-cnct/zabra
 - [Duplicate](https://help.github.com/articles/duplicating-a-repository/)
 this repo (https://github.com/samsung-cnct/solas) and push it to the `zabra`
-repo you created in the previous step. Note the arguments to clone and push
+repo you created in the previous step (note the arguments to clone and push)
 
 ```
 git clone --bare https://github.com/samsung-cnct/solas.git
