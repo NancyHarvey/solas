@@ -52,7 +52,7 @@ sources:
 
 Also add any relevant keywords and look at other
 related charts for inspiration. For example, if you're creating a logging chart, you might
-look at the [Fluent Bit CHart](https://github.com/samsung-cnct/chart-fluent-bit).
+look at the [Fluent Bit Chart](https://github.com/samsung-cnct/chart-fluent-bit).
 
 Push these changes to the GitHub repository before proceeding.
 
