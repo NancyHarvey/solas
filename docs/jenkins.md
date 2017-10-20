@@ -63,7 +63,7 @@ Push these changes to the GitHub repository before proceeding.
 * Log in to your Jenkins server
 * Create a new project by selecting `New Item` on the Jenkins homepage
   * Enter the repo name in the field at the top (for example, `container-zabra` or `chart-zabra`)
-  * Select Multibranch Pipeline 
+  * Select `Multibranch Pipeline` 
   
   <p align="center">
   <img src="https://github.com/NancyHarvey/solas/blob/ea5c38b5f5210c9635b7850d20b0a346aecdbb5c/docs/images/jenkins/Multibranch_cropped.png" width="700" title="Github Logo">
@@ -76,7 +76,7 @@ Push these changes to the GitHub repository before proceeding.
   <img src="https://github.com/NancyHarvey/solas/blob/master/docs/images/Jenkins%20Branch%20Sources%20Config.png" width="200" title="Github Logo">
 </p>
 
-* Configure Branch Sources as shown below.
+* Configure `Branch Sources` as shown below.
 <p align="center">
   <img src="https://github.com/NancyHarvey/solas/blob/master/docs/images/jenkins/Jenkins%20Branch%20Resources%20steps.png" width="700" title="Jenkins Branch Sources steps">
 </p>
@@ -86,4 +86,4 @@ Push these changes to the GitHub repository before proceeding.
   <img src="https://github.com/NancyHarvey/solas/blob/master/docs/images/jenkins/Jenkins%20Branch%20Sources_completed.png" width="800" title="Jenkins Branch Sources steps Completed">
 </p>
 
-### Did you`Save`?
+### Did you`save`?
