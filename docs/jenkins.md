@@ -72,21 +72,18 @@ Push these changes to the GitHub repository before proceeding.
 ### Configure GitHub
 
 * Under `Branch Sources`, add GitHub as a source:
-
 <p align="left">
   <img src="https://github.com/NancyHarvey/solas/blob/master/docs/images/Jenkins%20Branch%20Sources%20Config.png" width="200" title="Github Logo">
 </p>
 
-Configure Branch Sources as shown below.
-
-Notes:
-* Once you choose a credential, you may need to go back and select it.
-* Under the GitHub Branch Source, add the additional behaviors "Advanced
-checkout behaviors" and "Advanced clone behaviors," but don't change their
-settings.
-
+* Configure Branch Sources as shown below.
 <p align="center">
-  <img src="https://github.com/NancyHarvey/solas/blob/master/docs/images/jenkins/Jenkins%20Branch%20Sources%20w%20Notes.png" width="800" title="Branch Sources with Notes">
+  <img src="https://github.com/NancyHarvey/solas/blob/master/docs/images/jenkins/Jenkins%20Branch%20Resources%20steps.png" width="700" title="Jenkins Branch Sources steps">
 </p>
 
-### Remember to select `Save`
+* Confirm the configuration appears as below, then click `Save`.
+<p align="center">
+  <img src="https://github.com/NancyHarvey/solas/blob/master/docs/images/jenkins/Jenkins%20Branch%20Sources_completed.png" width="800" title="Jenkins Branch Sources steps Completed">
+</p>
+
+### Did you`Save`?
