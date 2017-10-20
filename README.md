@@ -1,4 +1,5 @@
 # solas
+Solas is scaffolding for new repositories hosted by Samsung CNCT. It implements our best practices, such as issue and PR templates, commit hooks, licensing guidelines, and so on.
 
 _SOLAS: Safety of Life at Sea, an international maritime treaty to ensure ships comply with minimum safety standards in construction, equipment and operation._
 
