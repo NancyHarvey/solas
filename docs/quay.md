@@ -9,8 +9,7 @@ repositories generate Helm chart artifacts stored in the
 artifacts in Quay enables easy sharing with others. This guide will show you how
 to create repositories and prepare for Jenkins to take over.
 
-The following assumes a repository that's been duplicated according to the
-the [README](../README.md) instructions.
+The following assumes a repository that's been duplicated according to the [README](../README.md) instructions.
 
 ## [Create](https://docs.quay.io/guides/create-repo.html) a Repository in Quay
 
@@ -21,37 +20,21 @@ For example, the artifact for the container repository `container-zabra` is name
 artifact is named simply `zabra`. We've chosen this naming convention because the application, not
 the container, is generally the artifact we expect users to interact with.
 
-To create a repository, follow the steps below:
+To create a repository, log into [quay.io](https://quay.io) and follow the steps shown in the screenshot below, 
 
-* Go to [quay.io](https://quay.io) and login if you are not already logged in
+<p align="center">
+  <img src="https://github.com/NancyHarvey/solas/blob/master/docs/images/quay/Create%20new%20repo.png"; width="800" title="Create a repo">
+</p>
 
-* Click the `+` icon in the top right of the page near your name and select
-`New Repository` ![screenshot](images/quay/create_new_repository.png)
-
-* Select `Container Repository` for `solas-container` repositories
-
-* Select `Application Repository` for `solas-chart` repositories
-
-* Choose `samsung_cnct` for the namespace
-
-* Enter the name of the artifact (for example, `zabra-container` or `zabra`)
-
-![screenshot](images/quay/new-repo.png)
-
-* For `Initialize repository` select `(Empty repository)`
-
-* Write a helpful description (it never hurts!)
-
-* Make the repository public or private as appropriate
-
-* Finish creating the repository by clicking `Create Public Repository` or
-`Create Private Repository`
+After naming your repo, configure the remaining settings:
+<p align="center">
+  <img src="https://github.com/NancyHarvey/solas/blob/master/docs/images/quay/Create%20new%20repo%20cont.png"; width="700" title="Create a repo">
+</p>
 
 ## Create a Robot Account
 
 We use robot accounts to authenticate and authorize access to Quay-hosted repositories. 
-Jenkins needs access to push artifacts to the registry. We use a different robot account for each repository to improve
-auditing and prevent some mistakes, such as a build job accidently publishing to
+Jenkins needs access to push artifacts to the registry. We use a different robot account for each repository to improve auditing and prevent some mistakes, such as a build job accidently publishing to
 the wrong repository.
 
 By convention, robot accounts are named after the artifact they're associated
